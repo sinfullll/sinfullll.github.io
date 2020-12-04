@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-image: url("https://cdn.discordapp.com/attachments/780160882943983626/784496644188143646/background.jpg");
 }
 
 h1{
@@ -12,4 +12,37 @@ h1{
 }
 h1:hover{
     text-shadow: 0 5px gray;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Source Sans Pro;
+    font-weight: bold;
+    text-shadow: 0 0px gray;
+    font-size: 35px;
+    transition-duration: 0.5s;
+}
+a:hover{
+    text-shadow: 0 5px gray;
+    font-size: 40px;
+}
+
+li{
+    display: inline-block;
+}
+
+li a {
+    padding: 0 30px;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translateX(-50%) translateY(-50%);
 }
