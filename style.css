@@ -1,3 +1,15 @@
 body{
     background-color: black;
 }
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-weight: bold;
+    text-shadow: 0 0px gray;
+    transition-duration: 0.5s;
+}
+h1:hover{
+    text-shadow: 0 5px gray;
+}
